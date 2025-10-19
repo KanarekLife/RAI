@@ -1,0 +1,2 @@
+(()=>{"use strict";var e;((e=document.createElement("div")).id="app-root",e.innerHTML='\n    <h1>Bundler demo</h1>\n    <p id="msg">Hello from app</p>\n    <button id="chg">Change message</button>\n  ',e.querySelector("#chg").addEventListener("click",function(){e.querySelector("#msg").textContent="Changed at "+(new Date).toISOString()}),{mount:function(t){return t.appendChild(e)}}).mount(document.getElementById("root"))})();
+//# sourceMappingURL=bundle.js.map

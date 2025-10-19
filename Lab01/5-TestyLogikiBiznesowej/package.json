@@ -1,0 +1,15 @@
+{
+    "name": "5-testy-logiki-biznesowej",
+    "version": "1.0.0",
+    "description": "Testy logiki biznesowej - książki i biblioteka",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha --recursive"
+    },
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "chai": "^4.3.6",
+        "mocha": "^10.2.0"
+    }
+}
